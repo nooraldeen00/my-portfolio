@@ -51,7 +51,7 @@ dialog{border:none; padding:0; background:transparent}
 .footer{padding:38px 0 60px; text-align:center; color:var(--muted)}
 
 @media (max-width:800px){
-  .hero{grid-template-columns:1fr;}
+  .hero{grid-template-columns:1fr}
   .avatar{justify-self:start}
   .modal{grid-template-columns:1fr}
 }
