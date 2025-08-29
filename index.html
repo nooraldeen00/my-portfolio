@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>John Adam — About & Projects</title>
+  <meta name="description" content="About me and selected projects." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="wrap nav">
+      <a class="logo" href="#">JA</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="mode" class="mode" title="Toggle theme" aria-label="Toggle theme">☀︎</button>
+      </nav>
+    </div>
+    <div class="wrap hero">
+      <div>
+        <h1>John Adam</h1>
+        <p class="sub">Senior CS @ UTA • graduating <strong>December</strong>. I build full-stack apps and practical AI tools.</p>
+        <p class="muted">I like creating apps, compilers, and systems that ship. Outside of school: cooking, gym, and sometimes running.</p>
+        <div class="btns">
+          <a class="btn primary" href="#projects">Browse Projects</a>
+          <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Résumé</a>
+        </div>
+      </div>
+      <img class="avatar" src="assets/avatar.svg" alt="avatar" />
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>
+        I’m focused on software engineering and applied AI: React/Next.js, Node, SQL, and Python—plus systems work in C/C++ and Java.
+        I enjoy clean APIs, testing discipline, and thoughtful UX.
+      </p>
+      <div class="chips">
+        <span>Java</span><span>C/C++</span><span>Python</span><span>JS/TS</span><span>React/Next.js</span><span>Node</span><span>SQL</span><span>Unity/C#</span><span>Scala</span>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="projects-head">
+        <h2>Projects</h2>
+        <div class="controls">
+          <input id="search" class="search" type="search" placeholder="Search projects, tech…" aria-label="Search projects" />
+          <select id="category" class="select" aria-label="Filter by category">
+            <option value="all">All</option>
+          </select>
+        </div>
+      </div>
+      <div id="grid" class="grid"></div>
+      <template id="card-tpl">
+        <article class="p-card" data-cat="">
+          <img class="thumb" alt="" loading="lazy" />
+          <div class="body">
+            <h3 class="title"></h3>
+            <p class="desc"></p>
+            <div class="tags"></div>
+          </div>
+          <div class="links">
+            <a class="repo" target="_blank" rel="noopener">Code</a>
+            <a class="demo" target="_blank" rel="noopener">Demo</a>
+            <button class="more">Details</button>
+          </div>
+        </article>
+      </template>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <ul class="contact">
+        <li><a href="mailto:john@example.com">Email</a></li>
+        <li><a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <dialog id="modal">
+    <article class="modal">
+      <button id="close" class="close" aria-label="Close">✕</button>
+      <img id="m-img" class="m-img" alt="" />
+      <div class="m-body">
+        <h3 id="m-title"></h3>
+        <p id="m-desc"></p>
+        <p id="m-notes" class="notes"></p>
+        <div id="m-tags" class="chips"></div>
+        <div class="links">
+          <a id="m-repo" target="_blank" rel="noopener">Code ↗</a>
+          <a id="m-demo" target="_blank" rel="noopener">Live Demo ↗</a>
+        </div>
+      </div>
+    </article>
+  </dialog>
+
+  <footer class="wrap footer">
+    <small>© <span id="y"></span> John Adam • Built with vanilla HTML/CSS/JS</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

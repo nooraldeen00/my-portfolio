@@ -1,0 +1,39 @@
+[
+  {
+    "title": "SPL Compiler",
+    "description": "End-to-end compiler: scanner, CUP parser, AST, type checker, IR, MIPS.",
+    "tech": ["Java 7", "Scala", "CUP", "JFlex", "MIPS"],
+    "repo": "https://github.com/your-username/spl-compiler",
+    "demo": "",
+    "image": "https://picsum.photos/seed/compiler/1200/630",
+    "category": "systems",
+    "notes": "Zero shift/reduce conflicts; passes tests; normalized IR."
+  },
+  {
+    "title": "FAT32 Shell (C)",
+    "description": "User-space shell for a FAT32 image: ls, cd, stat, read, get/put, del, undel.",
+    "tech": ["C", "FAT32", "Systems"],
+    "repo": "https://github.com/your-username/fat32-shell",
+    "demo": "",
+    "image": "https://picsum.photos/seed/fat32/1200/630",
+    "category": "systems"
+  },
+  {
+    "title": "AR Wetlands Watchers",
+    "description": "AR education app to visualize runoff and wetland dynamics.",
+    "tech": ["Unity", "AR Foundation", "C#"],
+    "repo": "https://github.com/your-username/wetlands-watchers",
+    "demo": "",
+    "image": "https://picsum.photos/seed/wetlands/1200/630",
+    "category": "web"
+  },
+  {
+    "title": "PokéChat",
+    "description": "LLM-powered chat that renders Pokémon data as cards.",
+    "tech": ["Next.js", "Node", "LLM"],
+    "repo": "https://github.com/your-username/pokechat",
+    "demo": "https://your-demo-url.example.com",
+    "image": "https://picsum.photos/seed/pokechat/1200/630",
+    "category": "web"
+  }
+]
