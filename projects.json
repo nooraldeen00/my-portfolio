@@ -1,15 +1,5 @@
 [
-  {
-    "title": "Sample Project",
-    "description": "Replace this with your first project.",
-    "tech": ["Tech1", "Tech2"],
-    "repo": "",
-    "demo": "",
-    "image": "https://picsum.photos/seed/sample1/1200/630",
-    "category": "web",
-    "notes": "Optional notes show in the Details modal."
-  }
-  ,
+  
   {
   "title": "The Chronologist",
   "description": "Puzzle platformer with time travel and gravity mechanics; designed, built, and playtested for fast, satisfying gameplay.",
