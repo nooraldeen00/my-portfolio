@@ -18,10 +18,11 @@
   "tech": ["C", "Memory Management", "Systems Programming"],
   "repo": "https://github.com/nooraldeen00/Custom-Allocator",
   "demo": "",
-  "image": "assets/Custom-Allocator.png",
+  "image": "assets/malloc.png",
   "category": "Systems",
   "notes": "Benchmarked against the standard malloc() library; includes support for splitting, coalescing, and different fit strategies."
 }
+
 
 
 
