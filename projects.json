@@ -9,4 +9,19 @@
     "category": "web",
     "notes": "Optional notes show in the Details modal."
   }
+
+  {
+  "title": "The Chronologist",
+  "description": "Puzzle platformer with time travel and gravity mechanics; designed, built, and playtested for fast, satisfying gameplay.",
+  "tech": ["Java", "Physics", "Level Design"],
+  "repo": "https://github.com/nooraldeen00/The-Chronologist",
+  "demo": "",
+  "image": "assets/chronologist.webp",
+  "category": "systems",
+  "notes": "Implements time-rewind and gravity-shift systems; custom input handling and level progression."
+}
+
+
+
+
 ]
