@@ -16,10 +16,10 @@
   "tech": ["Java", "Physics", "Level Design"],
   "repo": "https://github.com/nooraldeen00/The-Chronologist",
   "demo": "",
-  "image": "assets/chronologist.webp",
-  "category": "systems",
+  "image": "assets/title_screen.png",
+  "category": "Game Development",
   "notes": "Implements time-rewind and gravity-shift systems; custom input handling and level progression."
-}
+  }
 
 
 
