@@ -10,6 +10,18 @@
   "category": "Game Development",
   "notes": "Implements time-rewind and gravity-shift systems; custom input handling and level progression."
   }
+  , 
+
+  {
+  "title": "Custom Allocator",
+  "description": "A custom memory allocator in C that re-implements malloc, free, calloc, and realloc. Demonstrates low-level heap management, pointer arithmetic, and memory optimization strategies.",
+  "tech": ["C", "Memory Management", "Systems Programming"],
+  "repo": "https://github.com/nooraldeen00/Custom-Allocator",
+  "demo": "",
+  "image": "assets/Custom-Allocator.png",
+  "category": "Systems",
+  "notes": "Benchmarked against the standard malloc() library; includes support for splitting, coalescing, and different fit strategies."
+}
 
 
 
